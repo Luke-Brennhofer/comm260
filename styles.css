@@ -1,0 +1,45 @@
+#main-nav a, #main-nav a:visited {
+	text-decoration: none;
+}
+#main-nav a:hover, #main-nav a:focus, #main-nav a:active {
+	text-decoration: underline;
+}
+#sidebar {
+		width: 20%;
+		float:right;
+		background-color:gainsboro;
+		color:lightskyblue;
+		padding: 30px;
+		margin-top: 20px;
+		min-height: 300px;
+        font-size: 30px;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.post-heading {
+    color:orchid;
+    font-size: 2em;
+    margin-bottom: 0pxl
+}
+.article-thumbs {
+        text-align: center;
+        clear: both;
+        size:1.5em;
+}
+.article-thumbs img {
+    padding: 20px;
+}
+.hero-image {
+    float: left;
+    width: 640px;
+}
+footer {
+    clear:both;
+    padding: 10px;
+    border-top: 5px groove rgb(241, 235, 150)
+}
+body {
+    background-color:peachpuff
+}
