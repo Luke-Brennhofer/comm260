@@ -1,0 +1,146 @@
+.Welcome {
+    color:white;
+    background-color:#860111;
+    font-size: 60px;
+    text-align:center;
+}
+p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width:30%;
+    padding:15px;
+    margin:10px;
+    display: block;
+    float:left;
+    font-size:15px;
+}
+.list {
+    font-family:optima;
+    width:30%;
+    padding:15px;
+    margin:10px;
+    display: block;
+    float:inline-end;
+    text-align:left;
+}
+h1 {
+    text-align:center;
+}
+h2 {
+    text-align:center;  
+}
+h3 {
+    text-align:left;
+    padding:10px;
+    margin:10px;
+    width:40%;
+    border-style:inset;
+}
+h4 {
+    float:right;
+    text-align:left;
+    font-size: 15px;
+    padding:15px;
+    width:30%;
+
+}
+
+#navigation {
+    font-size:1.3em;
+    line-height: 1em;
+}
+#main-nav a{
+	width: 20%;
+	padding:10px;
+    margin:10px;
+	display: block;
+	float: left;
+	text-align: center;
+	background:#860111;
+	color:white;
+	border: 1px solid #fff;
+}
+#main-nav a:focus,
+#main-nav a:hover,
+#main-nav a:active {
+	background:#e4717a;
+	color: black;
+	border: 1px solid white;
+}
+.PW-images {
+    float:right;
+    margin: 0 30px;
+    position:static;
+}
+footer {
+    clear:both;
+    padding: 20px 0px;
+    border-top: 5px double red;
+}
+nav ul {
+    list-style-type:none;
+    margin:0px;
+}
+.FFImage {
+    padding:15px;
+    margin:15px;
+    width:50%;
+    flex-direction:column;
+    justify-content:space-evenly;
+}
+.FFText {
+    padding:15px;
+    margin:10px;
+    width:30%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:15px;
+    text-align:left;
+    float:right;
+}
+.Iris {
+    padding:15px;
+    margin:10px;
+    text-align:center;
+    width:40%;
+    float:left;
+    border-style:inset;
+}
+.Vivienne {
+    padding:15px;
+    margin:10px;
+    width:40%;
+    text-align:center;
+    float:right;
+    border-style:inset;
+}
+.trend {
+    padding:15px;
+    margin:10px;
+    text-align:center;
+    width:40%;
+    float:left;
+    border-style:inset;
+}
+.Rico {
+    padding:15px;
+    margin:10px;
+    width:40%;
+    text-align:center;
+    float:right;
+    border-style:inset;
+}
+.IrisImage {
+    margin: 0 30px;
+    float:inline-end;
+}
+.VWImage {
+    margin: 0 30px;
+    float:right;
+}
+.trendsimage {
+    margin: 0 30px;
+    float:left;
+}
+.RicoImage {
+    margin: 0 30px;
+    float:right;
+}
