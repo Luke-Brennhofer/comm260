@@ -41,9 +41,7 @@ h4 {
     font-size: 15px;
     padding:15px;
     width:30%;
-
 }
-
 #navigation {
     font-size:1.3em;
     line-height: 1em;
@@ -69,7 +67,14 @@ h4 {
 .PW-images {
     float:right;
     margin: 0 30px;
+    padding:15px;
     position:static;
+}
+.FF {
+    font-size:20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding:10px;
+    margin:10px;
 }
 footer {
     clear:both;
@@ -81,20 +86,22 @@ nav ul {
     margin:0px;
 }
 .FFImage {
-    padding:15px;
-    margin:15px;
-    width:50%;
-    flex-direction:column;
-    justify-content:space-evenly;
+    padding:10px;
+    margin:10px;
+    width:60%;
+    float:left;
+    column-count:2;
 }
 .FFText {
-    padding:15px;
-    margin:10px;
-    width:30%;
+    padding:10px;
+    margin:5px;
+    width:60%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size:15px;
     text-align:left;
-    float:right;
+    float:left;
+    border-bottom: 5px solid darkred;
+    border-right: 5px solid darkred;
 }
 .Iris {
     padding:15px;
@@ -130,7 +137,7 @@ nav ul {
 }
 .IrisImage {
     margin: 0 30px;
-    float:inline-end;
+    float:left;
 }
 .VWImage {
     margin: 0 30px;
@@ -143,4 +150,40 @@ nav ul {
 .RicoImage {
     margin: 0 30px;
     float:right;
+}
+#sidebar {
+    width:25%;
+    float:right;
+    background:lightpink;
+    color:darkred;
+    padding:15px;
+    min-height:150px;
+    margin-top:100px;
+    position:fixed;
+    top:150px;
+}
+#sidebar2 {
+    width:60%;
+    background:lightpink;
+    color:darkred;
+    padding:15px;
+    margin:15px;
+    min-height:100px;
+    margin-top:220px;
+}
+#sidebar3 {
+    width:60%;
+    background:#ffbcd9;
+    color:darkred;
+    padding:15px;
+    margin:15px;
+    min-height:100px;
+    margin-top:220px;
+}
+.GC {
+    padding:10px;
+    margin:10px;
+    width:60%;
+    float:left;
+    flex-direction:row;
 }
